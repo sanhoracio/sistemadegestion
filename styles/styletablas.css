@@ -1,0 +1,56 @@
+.cencell, .checkmark {
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */  
+}
+
+.checkmark {
+    width: 41px;
+    height: 37px;
+    background-color: #fff;
+    border: 1px solid #008000;
+    border-radius: 8px; 
+}
+
+.custom-button {
+    background-color: #6A9CD1;
+    color: #fff;
+    border-color: #6A9CD1;
+}
+
+.custom-button:hover {
+    background-color: #152259;
+    /* Cambia el color al pasar el mouse sobre el botón */
+}
+
+
+/* Estilo personalizado para botón de editar */
+
+.btn-custom-edit {
+    background-color: #fff;
+    border-color: #0FA958;
+    color: #0FA958;
+}
+
+
+/* Estilo personalizado para botón de ver */
+
+.btn-custom-view {
+    background-color: #fff;
+    border-color: #152259;
+    color: #152259;
+}
+
+
+/* Estilo para el icono de lápiz */
+
+.btn-custom-edit .fas.fa-pencil-alt {
+    color: #0FA958;
+}
+
+
+/* Estilo para el icono de ojo */
+
+.btn-custom-view .fas.fa-eye {
+    color: #152259;
+}
